@@ -72,7 +72,7 @@
 
 ## 实现思路
 
-fbx_ball_effect.fbx 中的网格 ball_effect 是一个自带折痕的片，网格数据中折痕坐标与底部重合，但通过判断纹理采样的坐标，能分辨出顶点是上边界顶点、折痕顶点还是底边界顶点
+fbx_ball_effect.fbx 中的网格 ball_effect 是一个自带折痕的片，网格数据中折痕坐标与下边界重合，但通过判断纹理采样的坐标，能分辨出顶点是上边界顶点、折痕顶点还是下边界顶点
 
 <img width="311" alt="1702013250586" src="https://github.com/JULIUSJIANG/u3d_ball_effect/assets/33363444/8eb08419-51a9-48a0-a9c6-4ca93ef906af">
 
